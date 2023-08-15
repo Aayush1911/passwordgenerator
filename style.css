@@ -1,0 +1,141 @@
+html {
+    height: 100%;
+    width: 100%;
+    background-color: #b2d7f0;
+    box-sizing: border-box;
+  }
+  
+  h1 {
+    text-align: center;
+    color: red;
+    font-weight: 700;
+    font-family: Arial;
+    padding-top: 40px;
+  
+  }
+  .box{
+      background-color: #E8FFCE;
+    margin: 0 25%;
+      margin-top: 5%;
+    
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+  
+  }
+  
+  .button {
+    display: flex;
+    background-color: #5c56d2;
+    text-align: center;
+    margin: 20px;
+    padding: 15px 32px;
+    border-radius: 12px;
+    font-weight: 500;
+    font-family: Verdana;
+    font-size: 1.5rem;
+    border: 1px solid black;
+  }
+  
+  button:hover {
+    background-color: cyan;
+    border: 4px solid blue;
+    font-weight: 700;
+  }
+  
+  .bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .password {
+    text-align: center;
+    font-family: Trebuchet MS;
+    width: 190px;
+    margin-top: 25px;
+    height: 8vh;
+    padding: 40px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid blue;
+    background-color: #fcf300;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 2rem;
+  }
+  
+  .password:hover {
+    border: 4px solid green;
+  }
+  
+  .copy {
+    background-color: #f77e7e;
+    margin: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-left: 46vw; */
+    padding: 15px 32px;
+    border-radius: 12px;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+  }
+  
+  .copy:hover {
+    background-color: red;
+    font-weight: 700;
+  }
+  
+  @media screen and (max-width:750px) {
+    html {
+      height: 100%;
+      width: 100%;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+  
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      justify-content: center;
+    }
+  
+    .button {
+      width: 40vw;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+  
+    }
+  
+    .heading {
+      text-align: center;
+    }
+  .bottom{
+        display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    width: 100%;
+  }
+    .password {
+      width: 40vw;
+    }
+  
+    .copy {
+      width: 40vw;
+  
+    }
+}
